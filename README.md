@@ -2,7 +2,8 @@
 ## Introduction
 This is a project analyzing the Online Retail Dataset as part of my journey as a data analyst in the Lux Dev Bootcamp.
 The dataset provides insight into market trends, customer buying power, and revenue patterns across different countries and time periods. 
-The goal is to understand revenue behavior, quantity sold, and customer spending patterns across the year.
+The goal is to understand revenue behavior, quantity sold,customer spending patterns across the year , as well product demand based on quantity sold in different countries.
+
 ___
 ## Problem Statement
 1. Which countries generate the highest revenue?
@@ -23,30 +24,52 @@ ___
 
 ___
 ## Analysis
-### Time Series / Seasonal Patterns (Revenue in 2011)
+### 1. Time Series / Seasonal Patterns (Revenue in 2011)
+![](RevenueByMonth2011.png)
 - November recorded the highest revenue in 2011.
  - December recorded the lowest revenue.
 - Revenue started low at the beginning of the year, increased steadily from May to November, then dropped sharply in December.
 
-### Top Revenue-Generating Countries & Quantity Sold
+### 2. Top Revenue-Generating Countries & Quantity Sold
+
+![](Top10CountryPerRevenue_Quanrity.png)
 - Netherlands generated the highest total revenue and sold the highest quantity of products.
 - Other high-performing countries include EIRE, Germany, France, Australia, Spain, Switzerland, Belgium, Sweden, and Japan.
-### Highest-Spending Customers
-- The highest-spending customer is Customer ID 14646, with a total revenue of 280,202.  
-### Product Demand by Country
+  
+### 3. Top Customers by Revenue
+
+![](Top10Customers.png)
+- The highest Revenue earned is by Customer ID 14646, with a total revenue of 280,202.  
+### 4. Product Demand by Country
+![](ProductDemanPerContry.png)
 - The Netherlands has the highest product demand, consistent with its leading revenue and quantity sold
-__
+
+ ___
 
 ## Visualizations
-1. Revenue per month in 2011
-2. Revenue by country and quantity sold
-3. Customer revenue distribution
-4. Product demand by country
+
+### 1. Total Revenue per month in 2011
+   
+   ![](RevenueByMonth2011Visual.png)
+   
+### 2. Total Revenue Vs Total quantity sold by Country
+
+   ![](TotalRevenue_TotalQuantityPerCountry.png)
+   
+### 3. Top 10 Customers by revenue 
+
+   ![](Top10CustomerVisual.png)
+   
+### 4. Product demand by country
+
+   ![](ProductDemanPerContryVisual.png)
+   
 __
+
  ## Conclusion
 Countries with the highest revenue exhibit the strongest purchasing power and customer activity. 
 The Netherlands stands out as the top-spending country, making it a strong potential market opportunity. 
-The analysis provides valuable insights into customer behavior, seasonal sales patterns, and country-level performance.
+
 
 
    
