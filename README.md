@@ -23,6 +23,18 @@ ___
 7. Data transformation from Excel to SQL (PostgreSQL)
 
 ___
+## Data Sourcing 
+The original dataset was provided in Excel files (.xlsx) containing online retail transaction data.
+These files included columns such as *InvoiceNo*, *StockCode*, *Description*, *Quantity*, *InvoiceDate*, *UnitPrice*, *CustomerID*, and *Country*.
+You can view the original data set here
+___
+
+## Data Transformation
+The raw Excel data was cleaned and processed using Python (Pandas).
+After cleaning, the data was transformed into SQL tables for use in PostgreSQL in the Table: online_retail_clean in schema online_retail_data_set.
+You can view the transformed SQL file here: [link to your SQL file]
+
+___
 ## Analysis
 ### 1. Time Series / Seasonal Patterns (Revenue in 2011)
 ![](RevenueByMonth2011.png)
