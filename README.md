@@ -24,15 +24,15 @@ ___
 
 ___
 ## Data Sourcing 
-The original dataset was provided in Excel files (.xlsx) containing online retail transaction data.
-These files included columns such as *InvoiceNo*, *StockCode*, *Description*, *Quantity*, *InvoiceDate*, *UnitPrice*, *CustomerID*, and *Country*.
-You can view the original data set here
+- The original dataset was provided in Excel files (.xlsx) containing online retail transaction data.
+- These files included columns such as *InvoiceNo*, *StockCode*, *Description*, *Quantity*, *InvoiceDate*, *UnitPrice*, *CustomerID*, and *Country*.
+- You can view the *Online Retail Data.xlsx*  [here](https://github.com/njerimuriithi/Retail_Data_Set_Analysis/blob/69d41e9605bd3628046d52d7db250e485bcf689f/Online%20Retail%20Data.xlsx)
 ___
 
 ## Data Transformation
-The raw Excel data was cleaned and processed using Python (Pandas).
-After cleaning, the data was transformed into SQL tables for use in PostgreSQL in the Table: online_retail_clean in schema online_retail_data_set.
-You can view the transformed SQL file here: [link to your SQL file]
+- The raw Excel data was cleaned and processed using Python (Pandas).
+- After cleaning, the data was transformed into SQL tables for use in PostgreSQL in the Table: online_retail_clean in schema online_retail_data_set.
+- You can view the transformed SQL file *online_retail_clean_.sql* [here:](online_retail_clean_.sql)
 
 ___
 ## Analysis
